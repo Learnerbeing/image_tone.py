@@ -230,23 +230,3 @@ class MMCQ(object):
         print("计算结束")
         return theme
 
-        # clall=0
-        # for i in range(self.maxColor):
-        #     theme[i][3] = (theme[i][3] / count)
-        #     w_distance=pow((pow(255 - theme[i][0], 2) + pow(255 - theme[i][1], 2) + pow(255 - theme[i][2], 2)), 1 / 3)
-        #     c_distance=pow((pow(theme[i][0],2)+pow(theme[i][1],2)+pow(theme[i][2],2)),1/3)
-        #     if (theme[i][0] > 127):
-        #         if (theme[i][1] < 127):
-        #             cla=theme[i][3]*w_distance
-        #         else:
-        #             cla=(1/w_distance)*theme[i][3]
-        #     else:
-        #         if(theme[i][1] > 127):
-        #             cla = -theme[i][3] * c_distance
-        #         else:
-        #             cla = -(1 / c_distance) * theme[i][3]
-        #     clall+=cla
-        # if(clall>0):
-        #     print("暖色调")
-        # else:
-        #     print("冷色调")
