@@ -123,3 +123,5 @@
 #     print(dict)
     # percentages =list(map(lambda d: MMCQ(d, maxColor).percentage(), pixDatas))
     #imgPalette(pixDatas, themes, ["MMCQ Palette"])
+    
+    ## 测试语句
